@@ -14,7 +14,7 @@ public class Main {
         int degree = 6;
         if (degree < 5) {
             System.out.println("На улице " + degree + " градусов нужно надеть шапку.");
-        } else if (degree > 5) {
+        } else if (degree > 5)  {
             System.out.println("На улице " + degree + " градусов можно идти без шапки.");
         }
 
@@ -23,14 +23,14 @@ public class Main {
         int driverSpeed = 70;
         if (driverSpeed > maximumSpeed) {
             System.out.println("Если скорость " + driverSpeed + " то придеться заплатить штраф.");
-        } else if (driverSpeed < maximumSpeed) {
+        } else  {
             System.out.println("Если скорость " + driverSpeed + " можно ездить спокойно.");
         }
 
         System.out.println("Задача 4");
         int humanAge = 8;
-        if (humanAge >= 2 && humanAge <= 7) {
-            System.out.println("Если взраст человека равен " + humanAge + " , то ему нужно ходить в десткий сад.");
+        if (humanAge >= 2 && humanAge <= 6) {
+            System.out.println("Если возраст человека равен " + humanAge + " , то ему нужно ходить в десткий сад.");
         } else if (humanAge >= 7 && humanAge <= 17) {
             System.out.println("Если возраст человека равен " + humanAge + " , то ему нужно ходить в школу.");
         } else if (humanAge >= 18 && humanAge <= 24) {
